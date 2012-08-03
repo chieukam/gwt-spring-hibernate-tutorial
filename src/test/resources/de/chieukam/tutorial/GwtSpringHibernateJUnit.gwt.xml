@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='de.chieukam.tutorial.GwtSpringHibernate' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/GwtSpringHibernate/sprintGwtServices/bookService" class="de.chieukam.tutorial.server.BookServiceImpl" />
+
+</module>
